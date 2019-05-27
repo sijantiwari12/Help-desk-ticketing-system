@@ -97,8 +97,9 @@ app.delete("/rest/ticket/:id", (req, res) => {
     { "_id.$oid": req.params.id },
     (err, result) => {
       if (err) return res.send(500, err);
-      res.send({ message: "Deleted ticket successfully" });
+      res.send({ message: "Deleted ticket" });
     }
   );
 });
+
 
