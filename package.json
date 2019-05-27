@@ -1,0 +1,18 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Node js assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "my",
+    "assignment"
+  ],
+  "author": "Sijan Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^14.3.1"
+  }
+}
